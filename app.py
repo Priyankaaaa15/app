@@ -44,7 +44,7 @@ def get_albums():
 @app.route('/')
 def home():
     return jsonify({
-        "message": "trigger",
+        "message": "trigger deployed",
         "available_routes": ["/posts", "/comments", "/albums"]
     })
 
